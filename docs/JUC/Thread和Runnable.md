@@ -1,5 +1,7 @@
 ﻿# Thread和Runnable
 
+相关代码：JUC.ThreadAndRunnableCase
+
 ## 1.联系与区别 ##
 
 > 二者都可以用来创建线程；

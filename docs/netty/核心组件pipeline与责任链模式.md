@@ -1,5 +1,7 @@
 ﻿# 核心组件pipeline与责任链模式
 
+相关代码：netty.sharableCase
+
 > 有关channelPipeline channelHandler channelHandlerContext的关系
 
 ## 1.三者的关系 ##

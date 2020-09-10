@@ -1,10 +1,9 @@
-package netty.shareableCase;
+package netty.sharableCase;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.*;
 import io.netty.util.CharsetUtil;
-import io.netty.util.concurrent.EventExecutorGroup;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

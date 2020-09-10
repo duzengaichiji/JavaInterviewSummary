@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90c31a99-9c55-49c2-b80c-8de11c51f2cc" name="Default Changelist" comment="" />
+    <list default="true" id="90c31a99-9c55-49c2-b80c-8de11c51f2cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/JUC/FuTure接口.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JUC/FuTure接口.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/JUC/Thread和Runnable.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JUC/Thread和Runnable.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaBasic/关于序列化和Serializable接口.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaBasic/关于序列化和Serializable接口.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/netty/核心组件pipeline与责任链模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/netty/核心组件pipeline与责任链模式.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/shareableCase/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/sharableCase/NettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/shareableCase/NettyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/sharableCase/NettyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/shareableCase/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/sharableCase/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/javaTest/serializableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/javaBasicTest/serializableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nettyTest/sharableTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/shareableCase/NettyClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/shareableCase/NettyClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/shareableCase/NettyHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/shareableCase/NettyServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/shareableCase/NettyServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nettyTest/sharableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/nettyTest/sharableTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,14 +34,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/javaTest/serializableTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JUC/WaitSleepCase/WaitSleepCaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#serializableTest2#0;class#serializableTest#0" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="44" column="15" lean-forward="true" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -50,6 +64,9 @@
       <find>ObjectStream</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -62,12 +79,9 @@
         <option value="$PROJECT_DIR$/src/main/java/JUC/OtherCase/AlternatePrinter.java" />
         <option value="$PROJECT_DIR$/src/main/java/JUC/OtherCase/AlternatePrinterByCondition.java" />
         <option value="$PROJECT_DIR$/src/main/java/JUC/OtherCase/AlternatePrinterBySemaphore.java" />
-        <option value="$PROJECT_DIR$/docs/JUC/Thread和Runnable.md" />
-        <option value="$PROJECT_DIR$/docs/netty/核心组件pipeline与责任链模式.md" />
         <option value="$PROJECT_DIR$/src/main/java/Collection/ListCase.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/shareableCase/NettyChannelHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/shareableCase/SharableNettyHandler.java" />
-        <option value="$PROJECT_DIR$/src/test/java/nettyTest/sharableTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/shareableCase/NettyServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/shareableCase/NettyHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/shareableCase/NettyClient.java" />
@@ -76,6 +90,20 @@
         <option value="$PROJECT_DIR$/src/main/java/javaBasic/Serializable/KryoSerializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/javaBasic/Serializable/WangerS.java" />
         <option value="$PROJECT_DIR$/src/test/java/javaTest/serializableTest.java" />
+        <option value="$PROJECT_DIR$/docs/javaBasic/关于序列化和Serializable接口.md" />
+        <option value="$PROJECT_DIR$/docs/JUC/FuTure接口.md" />
+        <option value="$PROJECT_DIR$/docs/JUC/Thread和Runnable.md" />
+        <option value="$PROJECT_DIR$/docs/netty/核心组件pipeline与责任链模式.md" />
+        <option value="$PROJECT_DIR$/src/main/java/javaBasic/CloneCase/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaBasic/CloneCase/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaBasic/CloneCase/DeepClonablePerson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaBasic/CloneCase/AddressClonable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaBasic/CloneCase/CloneCaseTest.java" />
+        <option value="$PROJECT_DIR$/docs/javaBasic/Java的一些基本概念和特性.md" />
+        <option value="$PROJECT_DIR$/src/main/java/JUC/WaitSleepCase/WaitSleepCaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/nettyTest/sharableTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/sharableCase/SharableCaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaBasic/Serializable/SerializableCaseTest.java" />
       </list>
     </option>
   </component>
@@ -97,25 +125,76 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="237" />
-    <option name="y" value="17" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="273" />
+    <option name="y" value="8" />
     <option name="width" value="1103" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="fuckJAVA" type="b2602c69:ProjectViewProjectNode" />
               <item name="fuckJAVA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fuckJAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fuckJAVA" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fuckJAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fuckJAVA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fuckJAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fuckJAVA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fuckJAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fuckJAVA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fuckJAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fuckJAVA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javaBasic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fuckJAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fuckJAVA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JUC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fuckJAVA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fuckJAVA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JUC" type="462c0819:PsiDirectoryNode" />
+              <item name="WaitSleepCase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -124,9 +203,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rpcProject" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -135,13 +215,13 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="netty.shareableCase" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\nhx\Desktop\myproject\fuckJAVA\docs\javaBasic" />
       <recent name="C:\Users\nhx\IdeaProjects\fuckJAVA\docs\netty" />
       <recent name="C:\Users\nhx\IdeaProjects\fuckJAVA\docs\JUC" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="netty.shareableCase" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -156,34 +236,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.serializableTest.serializableTest3">
-    <configuration name="serializableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.WaitSleepCaseTest">
+    <configuration name="CloneCaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaBasic.CloneCase.CloneCaseTest" />
       <module name="fuckJAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaTest.*" />
+          <option name="PATTERN" value="javaBasic.CloneCase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javaTest" />
-      <option name="MAIN_CLASS_NAME" value="javaTest.serializableTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="serializableTest.serializableTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WaitSleepCaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.WaitSleepCase.WaitSleepCaseTest" />
       <module name="fuckJAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaTest.*" />
+          <option name="PATTERN" value="JUC.WaitSleepCase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javaTest" />
-      <option name="MAIN_CLASS_NAME" value="javaTest.serializableTest" />
-      <option name="METHOD_NAME" value="serializableTest1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -192,12 +267,12 @@
       <module name="fuckJAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaTest.*" />
+          <option name="PATTERN" value="javaBasicTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javaTest" />
-      <option name="MAIN_CLASS_NAME" value="javaTest.serializableTest" />
+      <option name="PACKAGE_NAME" value="javaBasicTest" />
+      <option name="MAIN_CLASS_NAME" value="javaBasicTest.serializableTest" />
       <option name="METHOD_NAME" value="serializableTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -208,12 +283,12 @@
       <module name="fuckJAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaTest.*" />
+          <option name="PATTERN" value="javaBasicTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javaTest" />
-      <option name="MAIN_CLASS_NAME" value="javaTest.serializableTest" />
+      <option name="PACKAGE_NAME" value="javaBasicTest" />
+      <option name="MAIN_CLASS_NAME" value="javaBasicTest.serializableTest" />
       <option name="METHOD_NAME" value="serializableTest3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -224,12 +299,12 @@
       <module name="fuckJAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaTest.*" />
+          <option name="PATTERN" value="javaBasicTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javaTest" />
-      <option name="MAIN_CLASS_NAME" value="javaTest.serializableTest" />
+      <option name="PACKAGE_NAME" value="javaBasicTest" />
+      <option name="MAIN_CLASS_NAME" value="javaBasicTest.serializableTest" />
       <option name="METHOD_NAME" value="serializableWithKryoTest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -238,11 +313,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WaitSleepCaseTest" />
+        <item itemvalue="Application.CloneCaseTest" />
         <item itemvalue="JUnit.serializableTest.serializableTest3" />
         <item itemvalue="JUnit.serializableTest.serializableWithKryoTest1" />
         <item itemvalue="JUnit.serializableTest.serializableTest2" />
-        <item itemvalue="JUnit.serializableTest" />
-        <item itemvalue="JUnit.serializableTest.serializableTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +345,8 @@
       <workItem from="1599621221430" duration="1949000" />
       <workItem from="1599631605944" duration="806000" />
       <workItem from="1599632912027" duration="2475000" />
-      <workItem from="1599657299592" duration="535000" />
+      <workItem from="1599657299592" duration="2135000" />
+      <workItem from="1599700796898" duration="6083000" />
     </task>
     <servers />
   </component>
@@ -307,19 +383,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27049000" />
+    <option name="totallyTimeSpent" value="34732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21785174" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32242227" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32459018" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -386,14 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/JUC/FuTure接口.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-3108" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.5/lib/src.zip!/java.base/java/util/concurrent/FutureTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -457,16 +525,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/JUC/Java集合类.md" />
-    <entry file="file://$PROJECT_DIR$/docs/JUC/Thread和Runnable.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="294">
-            <caret line="36" selection-start-line="36" selection-end-line="36" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.5/lib/src.zip!/java.base/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -482,16 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/netty/核心组件pipeline与责任链模式.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="294">
-            <caret line="124" column="65" selection-start-line="124" selection-start-column="65" selection-end-line="124" selection-end-column="65" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -513,25 +561,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netty/shareableCase/NettyChannelHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/nettyTest/sharableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netty/shareableCase/SharableNettyHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/shareableCase/NettyHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/sharableCase/NettyHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/shareableCase/NettyServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/sharableCase/NettyServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
@@ -541,7 +579,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/shareableCase/NettyClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/sharableCase/NettyClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
@@ -629,19 +667,131 @@
     <entry file="file://$PROJECT_DIR$/docs/javaBasic/关于序列化和Serializable接口.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="56">
+            <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/javaTest/serializableTest.java">
+    <entry file="file://$PROJECT_DIR$/docs/JUC/FuTure接口.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="140">
+            <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/JUC/Thread和Runnable.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="56">
+            <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/netty/核心组件pipeline与责任链模式.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="56">
+            <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaBasic/CloneCase/Address.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="140">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaBasic/CloneCase/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaBasic/CloneCase/AddressClonable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/javaBasic/Java的一些基本概念和特性.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="28">
+            <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaBasic/CloneCase/CloneCaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaBasic/CloneCase/DeepClonablePerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nettyTest/sharableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/sharableCase/SharableCaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/javaBasicTest/serializableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
           <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#serializableTest2#0;class#serializableTest#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaBasic/Serializable/SerializableCaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JUC/WaitSleepCase/WaitSleepCaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="44" column="15" lean-forward="true" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
         </state>
       </provider>
     </entry>

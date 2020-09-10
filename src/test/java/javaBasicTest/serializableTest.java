@@ -1,6 +1,5 @@
-package javaTest;
+package javaBasicTest;
 
-import com.esotericsoftware.kryo.Kryo;
 import javaBasic.Serializable.KryoSerializer;
 import javaBasic.Serializable.Wanger;
 import javaBasic.Serializable.WangerS;
