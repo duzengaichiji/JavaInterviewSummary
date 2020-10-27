@@ -21,6 +21,7 @@ public class FutureTest {
         while (!(future1.isDone()&&future2.isDone())){
             //这里可以填充业务逻辑，需要 future1以future2结果的可以先跳过
             //future1和future2的结果可以异步的获取
+            //最简单的举例，future1或者future2的结果需要远程rpc调用，这里面会产生延迟，如果同步会拖慢整个业务流程
             System.out.println(
                     String.format(
                             "future1 is %s and future2 is %s",
