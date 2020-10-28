@@ -1,4 +1,4 @@
-package javaBasicTest;
+package javaBasic;
 
 import javaBasic.Serializable.KryoSerializer;
 import javaBasic.Serializable.Wanger;
