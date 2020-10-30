@@ -1,4 +1,4 @@
-package AOP;
+package DesignPattern.AOP;
 
 public class AopApiImpl implements AopApi{
     @Override

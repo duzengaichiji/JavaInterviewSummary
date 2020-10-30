@@ -1,4 +1,4 @@
-package AOP;
+package DesignPattern.AOP;
 
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;

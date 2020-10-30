@@ -1,4 +1,4 @@
-package AOP;
+package DesignPattern.AOP;
 
 
 import java.lang.reflect.InvocationHandler;
