@@ -7,7 +7,9 @@
 ## 1.三者的关系 ##
 
 > 每当创建一个SserverSocket就创建了一个新的连接，就会对应一个Socket，对应的连接对方就是目标客户端；
+>
 > 而每创建一个新的Socket就会分配一个全新的channelPipeline；
+>
 > 每一个channelPipeline内部都会包含多个channelHandlerContext，它们连起来构成了**双向链表**，这些context用来包装我们调用addLast的时候添加的channelhandler；
 
 
@@ -48,9 +50,12 @@
 > 简单来说，channelHandler又被下层接口分为inboundHandler和outboundHandler，分别指的是入站handler和出站handler，每个handler会通过调用**channelHandlerContext.fireChannelRead**方法转发给其下一个handler。
 > 
 > 通常一个pipeline中有很多个handler，通常一个基本的handler至少包含如下几个处理程序：
-1.协议解码器--将二进制数据转换为java对象。
-2.协议编码器--将java对象转换为二进制对象。
-3.业务逻辑处理器--执行业务逻辑，数据处理。
+>
+> 1.协议解码器--将二进制数据转换为java对象。
+>
+> 2.协议编码器--将java对象转换为二进制对象。
+>
+> 3.业务逻辑处理器--执行业务逻辑，数据处理。
 > 
 > channelInboundHandler具体实现，主要用于入站（读）数据处理
 
@@ -115,17 +120,21 @@
     
 
 > channelHanlderContext继承了channelInboundInvoker和channelOutboundInvoker；
-看起来像动态代理模式，在出站和入站方法对应的位置拦截并进行增强；
-另外，channelHandlerContext定义了一些用于获取其对应的channel，executor，handler。。等属性的方法；
-可以认为，context就是封装了handler的一切的代理类；
+>
+> 看起来像动态代理模式，在出站和入站方法对应的位置拦截并进行增强；
+>
+> 另外，channelHandlerContext定义了一些用于获取其对应的channel，executor，handler。。等属性的方法；
+>
+> 可以认为，context就是封装了handler的一切的代理类；
 
 
 ----------
 ## 5.channelPipeline是如何调度handler的 ##
 
 > 当一个请求进来时，会调用pipeline的相关方法；
-入站事件会沿着"fire"方法流动(fireChannelActive，。。。（fire系列是channelHandlerContext的方法)），让后续方法接着处理；
-对于入站事件，是从head开始向后流动，而出站事件是从tail开始向前流动，**所以要注意在pipeline中添加handler时的顺序**；
+> 入站事件会沿着"fire"方法流动(fireChannelActive，。。。（fire系列是channelHandlerContext的方法)），让后续方法接着处理；
+>
+> 对于入站事件，是从head开始向后流动，而出站事件是从tail开始向前流动，**所以要注意在pipeline中添加handler时的顺序**；
 
     private AbstractChannelHandlerContext findContextInbound() {
             AbstractChannelHandlerContext ctx = this;

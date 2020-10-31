@@ -5,11 +5,16 @@
 ## 1.联系与区别 ##
 
 > 二者都可以用来创建线程；
-Thread类实现了Runnable接口，添加了定义线程需要的其他属性，其业务逻辑由内部的Runnable对象决定；
-实现runnable接口的类需要放进Thread对象中执行；
-start方法是Thread的方法,是线程启动的**入口方法**；
-Runnable接口的run方法，该方法定义了线程**需要执行的逻辑**；
-同一个Runnable实现对象用于创建多个Thread，其内部的变量会共享，而创建多个Thread的实现对象，其变量是不会共享的；
+>
+> Thread类实现了Runnable接口，添加了定义线程需要的其他属性，其业务逻辑由内部的Runnable对象决定；
+>
+> 实现runnable接口的类需要放进Thread对象中执行；
+>
+> start方法是Thread的方法,是线程启动的**入口方法**；
+>
+> Runnable接口的run方法，该方法定义了线程**需要执行的逻辑**；
+>
+> 同一个Runnable实现对象用于创建多个Thread，其内部的变量会共享，而创建多个Thread的实现对象，其变量是不会共享的；
 
 ## 2. start方法和run方法 ##
 
